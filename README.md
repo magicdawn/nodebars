@@ -15,6 +15,11 @@ npm i nodebars --save
 {{/entend}}
 ```
 
+Following helpers are supported:
+
+- extend/block/content
+- include
+
 it's same to [handlebars-layouts](https://github.com/shannonmoeller/handlebars-layouts). 
 But you can just give a relative path for a layout file. like `./layout`. 
 So that's the difference.
@@ -22,8 +27,40 @@ So that's the difference.
 ## API
 
 ### normal node application
+```js
+// the default Bars instance
+var nodebars = require('nodebars');
+
+// Bars class
+var Bars = nodebars.Bars;
+
+string result = Bars#renderFileSync(file,locals);
+```
+
+#### Bars class init options
+
+- enableCache : whether enableCache for file reading
+- extname : the default file extension, default to `.html`
+
+
 ### express
+```js
+var app = require('express')();
+app.engine('.html',require('nodebars').express({
+  enableCache: false,
+  extname: '.html'
+}));
+```
+
 ### koa
+```js
+var app = koa()
+app.use(bars.koa({
+  viewRoot: './views',
+  extname: '.html', // default
+  enableCache: false // default
+}));
+```
 
 ## License
 
