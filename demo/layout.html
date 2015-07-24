@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+    {{~#block "title" ~}}
+      - 某系统
+    {{~/block~}}
+  </title>
+</head>
+<body>
+  <header>
+    header
+  </header>
+    
+  <div class="container">
+    <aside>
+      aside
+    </aside>  
+    <div class="section">
+      {{#block "body"}}
+      default body
+      {{/block}}
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2015
+  </footer>
+
+</body>
+</html>
