@@ -1,0 +1,9 @@
+{{#extend '_layouts/nest-layout'}}
+  {{~#content 'title' mode="prepend" ~}}
+    nest-layout
+  {{~/content~}}
+
+  {{#content 'body' mode='append'}}
+    <div>the 2nd div in body</div>
+  {{/content}}
+{{/extend}}
