@@ -1,5 +1,7 @@
-var bars = require('../');
+var bars = require('../').Bars({
+  extname: 'hbs'
+});
 
-var result = bars.renderFileSync(__dirname + '/index.html');
+var result = bars.renderFileSync(__dirname + '/index.hbs');
 
 console.log(result);
