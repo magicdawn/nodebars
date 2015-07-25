@@ -1,5 +1,7 @@
 # nodebars
+
 Handlebars on node.
+
 ![](https://img.shields.io/travis/magicdawn/nodebars/master.svg)
 ![](https://img.shields.io/coveralls/magicdawn/nodebars/master.svg)
 ![](https://img.shields.io/npm/v/nodebars.svg)
