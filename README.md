@@ -1,5 +1,6 @@
 # nodebars
 Handlebars on node.
+![](https://travis-ci.org/magicdawn/nodebars.svg)
 
 ## Install
 ```sh
