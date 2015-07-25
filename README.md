@@ -1,6 +1,10 @@
 # nodebars
 Handlebars on node.
-![](https://travis-ci.org/magicdawn/nodebars.svg)
+![](https://img.shields.io/travis/magicdawn/nodebars/master.svg)
+![](https://img.shields.io/coveralls/magicdawn/nodebars/master.svg)
+![](https://img.shields.io/npm/v/nodebars.svg)
+![](https://img.shields.io/npm/dm/nodebars.svg)
+![](https://img.shields.io/npm/l/nodebars.svg)
 
 ## Install
 ```sh
