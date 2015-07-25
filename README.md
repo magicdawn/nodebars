@@ -3,10 +3,10 @@
 Handlebars on node.
 
 [![Build Status](https://travis-ci.org/magicdawn/nodebars.svg?branch=master)](https://travis-ci.org/magicdawn/nodebars)
-![](https://img.shields.io/coveralls/magicdawn/nodebars/master.svg)
-![https://www.npmjs.com/package/nodebars](https://img.shields.io/npm/v/nodebars.svg)
-![https://www.npmjs.com/package/nodebars](https://img.shields.io/npm/dm/nodebars.svg)
-![https://www.npmjs.com/package/nodebars](https://img.shields.io/npm/l/nodebars.svg)
+[![](https://img.shields.io/coveralls/magicdawn/nodebars/master.svg)](#)
+[![](https://img.shields.io/npm/v/nodebars.svg)](https://www.npmjs.com/package/nodebars)
+[![](https://img.shields.io/npm/dm/nodebars.svg)](https://www.npmjs.com/package/nodebars)
+[![](https://img.shields.io/npm/l/nodebars.svg)](https://www.npmjs.com/package/nodebars)
 
 ## Install
 ```sh
