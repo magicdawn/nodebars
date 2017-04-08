@@ -1,5 +1,7 @@
 # nodebars
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/nodebars.svg)](https://greenkeeper.io/)
+
 Handlebars on node.
 
 [![Build Status](https://travis-ci.org/magicdawn/nodebars.svg?branch=master)](https://travis-ci.org/magicdawn/nodebars)
